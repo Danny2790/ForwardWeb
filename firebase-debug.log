@@ -1,0 +1,188 @@
+[debug] [2017-09-22T08:48:49.102Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T08:48:49.104Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akash\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T08:48:49.105Z] CLI Version:   3.9.2
+[debug] [2017-09-22T08:48:49.105Z] Platform:      win32
+[debug] [2017-09-22T08:48:49.105Z] Node Version:  v7.2.1
+[debug] [2017-09-22T08:48:49.105Z] Time:          Fri Sep 22 2017 14:18:49 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T08:48:49.105Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T08:48:49.117Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T08:48:49.117Z] > authorizing via signed-in user
+[debug] [2017-09-22T08:48:49.119Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-22T08:48:49.120Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/pn3CUiZwRm4_oblUCy8Rw4F9g4bYThV-i9u6LOLNrmc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Sep 22 2017 14:18:49 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T08:48:49.695Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T08:48:49.948Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/forward-web  
+ Fri Sep 22 2017 14:18:49 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T08:48:52.177Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T08:48:52.178Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/forward-web/tokens  
+ Fri Sep 22 2017 14:18:52 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T08:48:54.163Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\akash\workspace\ForwardWeb'...
+[info] 
+[debug] [2017-09-22T08:48:54.173Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/forward-web  
+ Fri Sep 22 2017 14:18:54 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T08:48:56.066Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T08:48:56.075Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800891063371/clients/_:getWebAppConfig  
+ Fri Sep 22 2017 14:18:56 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T08:48:57.442Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-09-22T10:04:11.457Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T10:04:11.459Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akash\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T10:04:11.459Z] CLI Version:   3.9.2
+[debug] [2017-09-22T10:04:11.459Z] Platform:      win32
+[debug] [2017-09-22T10:04:11.460Z] Node Version:  v7.2.1
+[debug] [2017-09-22T10:04:11.460Z] Time:          Fri Sep 22 2017 15:34:11 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:04:11.460Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T10:04:11.472Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T10:04:11.472Z] > authorizing via signed-in user
+[debug] [2017-09-22T10:04:11.474Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-22T10:04:11.474Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/pn3CUiZwRm4_oblUCy8Rw4F9g4bYThV-i9u6LOLNrmc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Sep 22 2017 15:34:11 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:04:12.337Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:04:12.374Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/forward-web  
+ Fri Sep 22 2017 15:34:12 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:04:14.728Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:04:14.730Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/forward-web/tokens  
+ Fri Sep 22 2017 15:34:14 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:04:16.718Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\akash\workspace\ForwardWeb'...
+[info] 
+[debug] [2017-09-22T10:04:16.736Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/forward-web  
+ Fri Sep 22 2017 15:34:16 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:04:18.620Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:04:18.621Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800891063371/clients/_:getWebAppConfig  
+ Fri Sep 22 2017 15:34:18 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:04:19.752Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-09-22T10:31:26.463Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T10:31:26.465Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akash\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T10:31:26.466Z] CLI Version:   3.9.2
+[debug] [2017-09-22T10:31:26.466Z] Platform:      win32
+[debug] [2017-09-22T10:31:26.466Z] Node Version:  v7.2.1
+[debug] [2017-09-22T10:31:26.466Z] Time:          Fri Sep 22 2017 16:01:26 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:31:26.466Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T10:31:26.478Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T10:31:26.478Z] > authorizing via signed-in user
+[debug] [2017-09-22T10:31:26.480Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:01:26 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:31:28.838Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:31:28.841Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/forward-web/tokens  
+ Fri Sep 22 2017 16:01:28 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:31:30.786Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\akash\workspace\ForwardWeb'...
+[info] 
+[debug] [2017-09-22T10:31:30.796Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:01:30 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:31:32.776Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:31:32.777Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800891063371/clients/_:getWebAppConfig  
+ Fri Sep 22 2017 16:01:32 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:31:33.857Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-09-22T10:36:52.923Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T10:36:52.926Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akash\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T10:36:52.926Z] CLI Version:   3.9.2
+[debug] [2017-09-22T10:36:52.926Z] Platform:      win32
+[debug] [2017-09-22T10:36:52.926Z] Node Version:  v7.2.1
+[debug] [2017-09-22T10:36:52.927Z] Time:          Fri Sep 22 2017 16:06:52 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:36:52.927Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T10:36:52.940Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T10:36:52.941Z] > authorizing via signed-in user
+[debug] [2017-09-22T10:36:52.943Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:06:52 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:36:55.251Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:36:55.254Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/forward-web/tokens  
+ Fri Sep 22 2017 16:06:55 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:36:57.226Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\akash\workspace\ForwardWeb'...
+[info] 
+[debug] [2017-09-22T10:36:57.237Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:06:57 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:36:58.977Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:36:58.978Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800891063371/clients/_:getWebAppConfig  
+ Fri Sep 22 2017 16:06:58 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:37:00.065Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-09-22T10:39:36.124Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T10:39:36.126Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akash\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T10:39:36.126Z] CLI Version:   3.9.2
+[debug] [2017-09-22T10:39:36.126Z] Platform:      win32
+[debug] [2017-09-22T10:39:36.127Z] Node Version:  v7.2.1
+[debug] [2017-09-22T10:39:36.127Z] Time:          Fri Sep 22 2017 16:09:36 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:39:36.127Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T10:39:36.140Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T10:39:36.140Z] > authorizing via signed-in user
+[debug] [2017-09-22T10:39:36.143Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:09:36 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:39:38.376Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:39:38.379Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/forward-web/tokens  
+ Fri Sep 22 2017 16:09:38 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:39:40.219Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\akash\workspace\ForwardWeb'...
+[info] 
+[debug] [2017-09-22T10:39:40.229Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:09:40 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:39:42.019Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:39:42.020Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800891063371/clients/_:getWebAppConfig  
+ Fri Sep 22 2017 16:09:42 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:39:43.040Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-22T10:41:59.413Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T10:41:59.416Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akash\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T10:41:59.416Z] CLI Version:   3.9.2
+[debug] [2017-09-22T10:41:59.416Z] Platform:      win32
+[debug] [2017-09-22T10:41:59.416Z] Node Version:  v7.2.1
+[debug] [2017-09-22T10:41:59.417Z] Time:          Fri Sep 22 2017 16:11:59 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:41:59.417Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T10:41:59.429Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T10:41:59.430Z] > authorizing via signed-in user
+[debug] [2017-09-22T10:41:59.432Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:11:59 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:42:01.730Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:42:01.732Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/forward-web/tokens  
+ Fri Sep 22 2017 16:12:01 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:42:03.578Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\akash\workspace\ForwardWeb'...
+[info] 
+[debug] [2017-09-22T10:42:03.589Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/forward-web  
+ Fri Sep 22 2017 16:12:03 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:42:05.492Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T10:42:05.493Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800891063371/clients/_:getWebAppConfig  
+ Fri Sep 22 2017 16:12:05 GMT+0530 (India Standard Time)
+[debug] [2017-09-22T10:42:06.614Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
